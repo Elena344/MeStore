@@ -1,0 +1,821 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,500&display=swap");
+
+body{
+	background-image: url(../images/bg.jpg);
+}
+
+@font-face {
+	font-family: 'Montserrat Bold';
+	src: url('../fonts/Montserrat-ExtraBold.eot');
+	src: url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+	url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue Bold';
+	src: url('../fonts/BebasNeueBold.eot');
+	src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BebasNeueBold.woff') format('woff'),
+	url('../fonts/BebasNeueBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: fontawesome !important;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 121px;
+	color: #222;
+	text-transform: uppercase;
+	line-height: 0.8;
+}
+
+h1 span{
+	color: #f9236f;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+	color: #000;
+}
+
+h5{
+	font-size: 18px;
+	font-weight: 800;
+	color: #515151;
+}
+
+h6.card-subtitle{
+	font-size: 14px;
+	color: #a8a8a8;
+}
+
+header{
+	height: 100vh;
+	position: relative;
+}
+
+p.year{
+	color: #222;
+	font-size: 50px;
+}
+
+/*---alert---*/
+
+.alert{
+	background-image: url(../images/alert.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	color: #fff;
+	font-family: 'Montserrat Bold';
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 5px;
+    right: 6%;
+    padding: 0.35rem 0.55rem;
+    color: #fff;
+}
+
+.alert-dismissible .close {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+/*---header---*/
+
+#header{
+	background-image: url(../images/header.png);
+	background-color: #bae9ff;
+	min-height: 1058px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.top_panel{
+	background: rgb(255, 255, 255, 0.6);
+	color: #222222;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.top_panel .container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.top_panel .container .col-lg-10{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.info{
+	border-bottom: 1px solid #565e61;
+}
+
+.info .country{
+	text-align: right;
+	padding-right: 0;
+}
+
+.info a{
+	font-family: 'Times New Roman';
+	font-size: 15px;
+}
+
+.info .country a{
+	font-size: 16px;
+	font-family: 'Montserrat Bold';
+	text-align: right;
+}
+
+.search{
+	text-align: right;
+	padding-right: 0;
+}
+
+/*---nav---*/
+
+.top_panel .navbar a.navbar-brand{
+	font-size: 26px;
+	font-family: 'Montserrat Bold';
+}
+
+.top_panel a{
+	color: #222222;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.top_panel a:hover{
+	color: #a92353;
+	text-decoration: none;
+}
+
+.top_panel .navbar .navbar-nav .nav-item{
+	font-size: 16px;
+}
+
+span.icon{
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	line-height: 110px;
+	border-radius: 50%;
+	margin-top: -65px;
+	background: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
+
+/*---title block---*/
+
+.title_block{
+	width: 60%;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.title_block p{
+	color: #494949;	
+}
+
+.title_block .btn{
+	background: #f9236a;
+	border-radius: 0;
+	padding: 15px 35px;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 80px;
+}
+
+.title_block .btn{
+	background: #f9236a;
+	border-radius: 0;
+	padding: 15px 35px;
+	color: #fff;
+	font-size: 20px;
+}
+
+/*---end header---*/
+
+/*---article---*/
+
+.article{
+	background: #fff;
+	margin-top: -70px;
+	position: relative;
+	z-index: 2;	
+}
+
+.advantages .fa{
+	font-size: 50px;
+	color: #5c5c5c;
+	position: relative;
+	top: 10px;	
+}
+
+.advantages p{
+	font-size: 16px;
+	color: #000;
+}
+
+.fashion .fashion_caption h1{
+	font-size: 48px;
+	font-weight: 700px;
+	color: #222;
+	text-transform: none;
+}
+
+.fashion .fashion_caption h1 span{
+	color: #f9236f;
+}
+
+.fashion_block img{
+	position: relative;
+	z-index: 1;
+}
+
+.fashion_caption{
+	position: absolute;
+	left: 45px;
+	top: 20px;
+	z-index: 2;
+}
+
+.fashion_caption .btn{
+	background: #f92349;
+	font-size: 20px;
+	padding: 5px 35px;
+	border-radius: 0;
+	color: #fff;
+}
+
+#products .figure-caption h4{
+	font-size: 18px;
+	font-weight: 800;
+	color: #000;
+}
+
+#products .figure-caption p{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+#products .figure-star a{
+	font-size: 15px;
+	color: #ffc808;
+}
+
+#products .figure-old-price{
+	color: #6b6b6b;
+	font-size: 16px;
+}
+
+#products .figure-price{
+	color: #000;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.browsing_item{
+	background: #cacaca;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 50%;
+}
+
+a.browsing_item:hover{
+	background: #f92357;
+}
+
+a.browsing_item{
+	color: #fff;
+}
+
+a.active{
+	background: #f92357;
+}
+
+.fa-caret-left{
+	position: relative;
+	right: 1px;
+	bottom: 1px;
+}
+
+.fa-caret-right{
+	position: relative;
+	left: 1px;
+	bottom: 1px;
+}
+
+#news{
+	background: #f0f0f0;
+	padding-bottom: 150px;
+	padding-top: 130px;
+	margin-top: -65px;
+	position: relative;
+	z-index: 1;
+}
+
+.card-body p.card-text{
+	font-size: 14px;
+	color: #494949;
+}
+
+.card .card-body .btn{
+	background: #f92349;
+	border-radius: 0;
+}
+
+.card .card-body .btn a{
+	color: #fff;
+}
+
+a.card-link{
+	color: #f92349;
+}
+
+.brands{
+	background: #fff;
+	margin-top: -100px;
+	padding: 50px 30px;
+	position: relative;
+	z-index: 3;
+}
+
+.brands .figure-caption h4{
+	font-size: 18px;
+	font-weight: 800;
+	color: #000;
+	margin-bottom: 0;
+}
+
+.brands .figure-caption p{
+	font-size: 17px;
+	color: #939393;
+}
+
+.brands span.figure-price{
+	font-size: 18px;
+	font-weight: 800;
+	color: #f92349;
+}
+
+.brands span.figure-old-price{
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+.brand_center{
+	background: #f9234a;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue Bold';
+	padding: 30px;
+	position: relative;
+}
+
+.brand_center img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.brand_center h3{
+	font-size: 75px;
+	margin-bottom: 0;
+	line-height: 0.85;
+}
+
+.brand_center h3 span{
+	font-size: 130px;
+	margin-bottom: 0;
+	line-height: 0.85;
+}
+
+.brand_center h4{
+	font-size: 119px;
+	margin-bottom: 0;
+	line-height: 0.85;
+}
+
+.brand_center p{
+	font-size: 62px;
+	margin-bottom: 0;
+	line-height: 0.85;
+}
+
+.border{
+	border: 5px solid #fff !important;
+	line-height: 0.9;
+	padding: 30px;
+}
+
+.brands .input {
+	height: 35px;
+	border: 1px solid #a1a1a1;
+	border-radius: 0;
+	width: calc(70% - 115px);
+}
+
+.newsletter-btn {
+    width: 115px;
+    height: 35px;
+    background: #f9236c;
+	color: #FFF;
+    border: none;
+	border-radius: 0;
+}
+
+.partners{
+	background: #eeeeee;
+	padding: 150px 0 50px 0;
+	margin-top: -80px;
+	position: relative;
+	z-index: -1;
+}
+
+.partners .nav .nav-item{
+	padding: 0 21px;
+}
+
+/*---footer---*/
+
+#footer{
+	background: rgba(249,35,91,1);
+	color: #fff;
+	font-size: 15px;
+}
+#footer .nav a{
+	color: #fff;
+	font-size: 15px;
+	padding-left: 0;
+}
+
+#footer h4{
+	font-weight: 800;
+}
+
+.fa-facebook{
+	margin-top: 41px;
+}
+
+ul.payment li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+ul.payment li :first-child{
+	margin-left: 0;
+}
+
+ul.payment{
+	padding-left: 0;
+}
+
+.payment-img {
+    width: 33px;
+    height: 22px;
+    background-image: url('../images/payment-img.png');
+    display: inline-block;
+}
+
+.mastercard {
+    background-position: -1px 0px;
+}
+
+.discover {
+    background-position: -48px 0px;
+}
+
+.american {
+    background-position: -98px 0px;
+}
+
+.visa {
+    background-position: -146px 0px;
+}
+
+.stripe {
+    background-position: -195px 0px;
+}
+
+.f {
+    background-position: -244px 0px;
+}
+
+
+@media (max-width: 340.98px) {
+	.col-12, .col-sm-12{
+		text-align: center;
+	}
+	
+	.top_panel .container .col-lg-10{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.info .country{
+		text-align: center;
+	}
+	
+	.search{
+		text-align: left;
+	}
+	
+	.title_block h1{
+		font-size: 45px;
+	}
+	
+	p.year{
+		font-size: 30px;
+	}
+	
+	span.icon{
+		background: #bae9ff;
+	}
+	
+	.fashion_block{
+		margin-top: 30px;
+	}
+	
+	.fashion .fashion_caption h1{
+		font-size: 30px;
+	}
+
+	.fashion_caption{
+		left: 25px;
+		top: 20px;
+	}
+	
+	.fashion_caption p{
+		display: none;
+	}
+
+	.fashion_caption .btn{
+		font-size: 20px;
+		padding: 5px 15px;
+	}
+	
+	.brand_center{
+		margin: 30px 0;
+	}
+	
+	.brand_center h3{
+		font-size: 55px;
+	}
+
+	.brand_center h3 span{
+		font-size: 90px;
+	}
+
+	.brand_center h4{
+		font-size: 89px;
+	}
+
+	.brand_center p{
+		font-size: 42px;
+	}
+	
+	.brands .input {
+		width: 100%;
+	}
+
+	.newsletter-btn {
+		margin-top: 20px;
+	}
+
+
+}
+
+@media (min-width: 340.97px) and (max-width: 575.97px) {
+	.col-12, .col-sm-12{
+		text-align: center;
+	}
+	
+	.top_panel .container .col-lg-10{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.info .country{
+		text-align: center;
+	}
+	
+	.search{
+		text-align: left;
+	}
+	
+	.fa-search{
+		margin-bottom: 20px;
+	}
+	
+	.title_block h1{
+		font-size: 59px;
+	}
+	
+	p.year{
+		font-size: 40px;
+	}
+	
+	span.icon{
+		background: #bae9ff;
+	}
+	
+	.card{
+		margin-top: 30px;
+	}
+	
+	.fashion_block{
+		margin-top: 30px;
+	}
+		
+	.brand_center{
+		margin: 30px 0;
+	}
+	
+	.brand_center h3{
+		font-size: 65px;
+	}
+
+	.brand_center h3 span{
+		font-size: 100px;
+	}
+
+	.brand_center h4{
+		font-size: 99px;
+	}
+
+	.brand_center p{
+		font-size: 52px;
+	}
+	
+	.brands .input {
+		width: 100%;
+	}
+
+	.newsletter-btn {
+		margin-top: 20px;
+	}
+	
+	ul.payment li{
+		margin-left: 5px;
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.col-12, .col-sm-12{
+		text-align: center;
+	}
+	
+	.top_panel .container .col-lg-10{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.info .country{
+		text-align: center;
+	}
+	
+	.search{
+		text-align: left;
+	}
+	
+	.fa-search{
+		margin-bottom: 20px;
+	}
+
+	.title_block h1{
+		font-size: 90px;
+	}
+	
+	span.icon{
+		background: #bae9ff;
+	}
+	
+	.card{
+		margin-top: 30px;
+	}
+	
+	.fashion_block{
+		margin-top: 30px;
+	}
+		
+	.brand_center{
+		margin: 30px 0;
+	}
+	
+	ul.payment li{
+		margin-left: 0;
+	}
+	
+	.title_block .btn{
+		margin-top: 20px;
+	}
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.col-12, .col-sm-12{
+		text-align: center;
+	}
+	
+	.top_panel .container .col-lg-10{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.title_block h1{
+		font-size: 100px;
+	}
+	
+	span.icon{
+		background: #bae9ff;
+	}
+	
+	.search{
+		text-align: left;
+	}
+	
+	.fa-search{
+		margin-bottom: 20px;
+	}
+	
+	.card{
+		margin-top: 30px;
+	}
+	
+	.fashion_block{
+		margin-top: 30px;
+	}
+	
+	.fashion_caption{
+		left: 105px;
+		top: 50px;
+	}
+	
+	.brand_center{
+		margin: 30px 0;
+	}
+	
+	.title_block .btn{
+		margin-top: 20px;
+	}
+	
+}
+
+
+@media (min-width: 992px) and (max-width: 1200.98px) {
+	.col-12, .col-sm-12{
+		text-align: center;
+	}
+
+	.top_panel .container .col-lg-10{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.title_block h1{
+		font-size: 100px;
+	}
+	
+	.fashion_block{
+		margin-top: 30px;
+	}
+	
+	.title_block .btn{
+		margin-top: 50px;
+	}
+
+}
+
+
+
+
+
